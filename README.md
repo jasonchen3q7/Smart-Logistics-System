@@ -33,10 +33,9 @@
   * 运用递归算法（Recursion）一键统计整张物流网络的总积压订单量。
 
 ## 📁 目录结构
-.
-├── main.py         # 程序主入口：包含 GUI 界面绘制及所有交互逻辑
-├── algorithms.py   # 算法核心库：包含快速排序、二分查找、树的递归遍历算法
-├── models.py       # 数据模型层：包含实体类 (Order, Vehicle, RegionNode 等)
+main.py         # 程序主入口：包含 GUI 界面绘制及所有交互逻辑
+algorithms.py   # 算法核心库：包含快速排序、二分查找、树的递归遍历算法
+models.py       # 数据模型层：包含实体类 (Order, Vehicle, RegionNode 等)
 
 ## 🚀 运行指南
 ### 🛠️ 1. 获取代码
