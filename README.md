@@ -18,21 +18,23 @@
 ## ✨ 核心功能与技术亮点
 
 * 📦 **订单管理 (Order Management)**
-  * 可在界面中直观地新增（Add）和删除（Delete）订单。
-  * 包含订单ID、重量（kg）、距离（km）以及优先级（Priority）属性。
+  * 可在界面中直观地新增（Add）和删除（Delete）订单
+  * 包含订单ID、重量（kg）、距离（km）以及优先级（Priority）属性
 * 🧠 **智能派单排序 (Quick Sort)**
-  * 采用快速排序（Quick Sort）算法重新排列订单。
-  * 规则：高优先级优先；同优先级下，距离短的优先。
+  * 采用快速排序（Quick Sort）算法重新排列订单
+  * 规则：高优先级优先；同优先级下，距离短的优先
 * 🔍 **极速订单检索 (Binary Search)**
-  * 使用二分查找（Binary Search）算法，在 O(log n) 时间复杂度下毫秒级定位订单详情。
+  * 使用二分查找（Binary Search）算法，在 O(log n) 时间复杂度下毫秒级定位订单详情
 * 🚁 **车辆多态模拟 (Vehicle Polymorphism)**
-  * 构建“卡车（Truck）”和“无人机（Drone）”载具模型。
-  * 利用多态（Polymorphism）特性，动态计算不同载具在相同距离下的预估配送时间。
+  * 构建“卡车（Truck）”和“无人机（Drone）”载具模型
+  * 利用多态（Polymorphism）特性，动态计算不同载具在相同距离下的预估配送时间
 * 🌳 **递归物流网统计 (Recursive Backlog Count)**
-  * 基于树形结构建立多级物流区域网络（总中心 -> 分中心 -> 站点）。
-  * 运用递归算法（Recursion）一键统计整张物流网络的总积压订单量。
+  * 基于树形结构建立多级物流区域网络（总中心 -> 分中心 -> 站点）
+  * 运用递归算法（Recursion）一键统计整张物流网络的总积压订单量
 
 ## 📁 目录结构
+
+```text
 main.py         # 程序主入口：包含 GUI 界面绘制及所有交互逻辑
 algorithms.py   # 算法核心库：包含快速排序、二分查找、树的递归遍历算法
 models.py       # 数据模型层：包含实体类 (Order, Vehicle, RegionNode 等)
