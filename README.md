@@ -45,8 +45,8 @@
 git clone https://github.com/您的用户名/Smart-Logistics-System.git
 ### 🏃‍♂️  2. 启动程序
 #第 1 步：进入项目目录
-cd Smart-Logistics-System
-第 2 步：运行主程序
-python main.py
+- cd Smart-Logistics-System
+#第 2 步：运行主程序
+- python main.py
 
 
