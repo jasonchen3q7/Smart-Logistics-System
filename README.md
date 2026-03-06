@@ -43,10 +43,12 @@
 请确保您的计算机上已安装 Python 3.8 或更高版本
 您可以直接在 GitHub 页面点击 Code -> Download ZIP 下载并解压，或者使用 Git 命令行将项目克隆到本地：
 git clone https://github.com/您的用户名/Smart-Logistics-System.git
-### 🏃‍♂️  2. 启动程序
-#第 1 步：进入项目目录
-- cd Smart-Logistics-System
-#第 2 步：运行主程序
-- python main.py
 
+### 🏃‍♂️ 2. 启动程序
+
+- **第 1 步：进入项目目录**
+  `cd Smart-Logistics-System`
+
+- **第 2 步：运行主程序**
+  `python main.py`
 
