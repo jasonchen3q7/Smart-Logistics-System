@@ -4,7 +4,7 @@
 
 基于 Python 与 Tkinter 构建的桌面应用程序，模拟基于卡车和无人机（Truck-Drone）的智能物流订单调度。
 
-![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.8-blue.svg)
 ![GUI](https://img.shields.io/badge/GUI-Tkinter-green.svg)
 ![OOP](https://img.shields.io/badge/Concept-OOP-orange.svg)
 ![Algorithm](https://img.shields.io/badge/Algorithm-QuickSort_%7C_BinarySearch-red.svg)
@@ -32,15 +32,23 @@
   * 基于树形结构建立多级物流区域网络（总中心 -> 分中心 -> 站点）。
   * 运用**递归算法（Recursion）**一键统计整张物流网络的总积压订单量。
 
-## 📸 系统截图
-
-> *(提示：您可以将程序运行后的截图命名为 `screenshot.png` 放入项目根目录，替换此处的占位)*
-> 
-> ![System Screenshot](./screenshot.png)
-
 ## 📁 目录结构
 
 .
 ├── main.py         # 程序主入口：包含 GUI 界面绘制及所有交互逻辑
 ├── algorithms.py   # 算法核心库：包含快速排序、二分查找、树的递归遍历算法
 ├── models.py       # 数据模型层：包含实体类 (Order, Vehicle, RegionNode 等)
+
+## 🚀 运行指南
+
+### 🛠️ 1. 获取代码
+请确保您的计算机上已安装 **Python 3.8 或更高版本**。
+您可以直接在 GitHub 页面点击 Code -> Download ZIP 下载并解压，或者使用 Git 命令行将项目克隆到本地：
+# git clone https://github.com/您的用户名/Smart-Logistics-System.git
+### 🏃‍♂️  2. 启动程序
+# 第 1 步：进入项目目录
+cd Smart-Logistics-System
+# 第 2 步：运行主程序
+python main.py
+
+
